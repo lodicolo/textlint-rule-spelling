@@ -15,13 +15,13 @@
     "prepublish": "npm run --if-present build"
   },
   "devDependencies": {
-    "dictionary-en": "3.0.1",
-    "eslint": "7.9.0",
+    "dictionary-en": "3.2.0",
+    "eslint": "8.35.0",
     "eslint-config-google": "0.14.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-prettier": "3.1.4",
-    "prettier": "2.1.1",
-    "textlint-scripts": "3.0.0"
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.4",
+    "textlint-scripts": "13.3.1"
   },
   "name": "textlint-rule-spelling",
   "description": "A textlint rule for spelling of languages as much as possible",
@@ -39,8 +39,8 @@
   },
   "homepage": "https://github.com/ta2gch/textlint-rule-spelling#readme",
   "dependencies": {
-    "@textlint/regexp-string-matcher": "^1.1.0",
-    "nspell": "^2.1.2"
+    "@textlint/regexp-string-matcher": "^2.0.2",
+    "nspell": "^2.1.5"
   },
   "peerDependencies": {
     "textlint": ">=11.7.6"
