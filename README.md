@@ -16,14 +16,14 @@ The dictionaries are available at [wooorm/dictionaries](https://github.com/wooor
 
 ```jsonc
 {
-    "rules": {
-        "spelling": {
-            "language": "en",
-            "skipPatterns": ["JavaScript"],
-            "wordDefinitionRegexp": "/[\\w']+/g",
-            "suggestCorrections": true,
-        }
-    }
+	"rules": {
+		"spelling": {
+			"language": "en",
+			"skipPatterns": ["JavaScript"],
+			"wordDefinitionRegexp": "/[\\w']+/g",
+			"suggestCorrections": true
+		}
+	}
 }
 ```
 
@@ -39,10 +39,10 @@ Optional. This can be a mix of strings and regular expressions. Normal words lik
 
 ##### config.wordDefinitionRegexp
 
-Optional. You should override this if you notice an issue for your language. The default works for *en*.
+Optional. You should override this if you notice an issue for your language. The default works for _en_.
 
 ```javascript
-     /[\w']+/g
+/[\w']+/g;
 ```
 
 ##### config.suggestCorrections
